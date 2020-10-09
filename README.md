@@ -16,7 +16,7 @@ Clone this repository.
 
 ## Authors
 
-* **Brian Esiobu** - *Initial work* - [PurpleBooth](https://github.com/besiobu)
+* **Brian Esiobu** - *Initial work* - [besiobu](https://github.com/besiobu)
 
 ## License
 
