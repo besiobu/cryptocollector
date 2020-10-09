@@ -127,3 +127,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# JSON
+*.json
+
+# CSV
+*.csv
+
+# Data folder
+/data
+
+# Performance test
+perf_test.py
