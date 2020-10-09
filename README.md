@@ -5,6 +5,8 @@ A simple python module to collect trades from cryptocurrency exchanges.
 ## Features
 * Write messages directly to database.
 * In case write fails - save message to `json`.
+* Each message is timestamped before inserting into database.
+* Automatic reconnecting to websockets.
 * Logging.
 
 ## Supported exchanges
