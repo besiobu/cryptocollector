@@ -1,6 +1,6 @@
 # cryptocollector
 
-<img src="https://github.com/besiobu/cryptocollector/blob/main/img/xbt_report.png" width="600" height="400" />
+<img src="https://raw.githubusercontent.com/besiobu/cryptocollector/main/img/xbt_report.PNG" width="517" height="353" />
 
 A simple python module to collect trades from cryptocurrency exchanges.
 
