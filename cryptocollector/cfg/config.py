@@ -1,5 +1,5 @@
 # Logger settings
-LOG_FORMAT = '%(asctime)s.%(msecs)03d | %(levelname)5s | %(module)25s | %(funcName)25s | %(message)s'
+LOG_FORMAT = '%(asctime)s.%(msecs)03d | %(levelname)10s | %(module)25s | %(funcName)25s | %(message)s'
 DATE_FORMAT = '%Y-%m-%d %H:%M:%S'
 
 # Coinbase settings
