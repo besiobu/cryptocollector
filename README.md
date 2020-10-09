@@ -2,19 +2,20 @@
 
 A simple python module to collect trades from cryptocurrency exchanges.
 
-Supported exchanges are:
-    * Coinbase
-    * Bitmex
+## Features
+* Write messages directly to database.
+* In case write fails - save message to `json`.
+* Logging.
 
-## Getting Started
+## Supported exchanges
+* Coinbase
+* Bitmex
 
-Install requirements.
-
-### Prerequisites
+## Prerequisites
 
 This module is requires SQL Server to be setup with the database solution available [here]().
 
-### Installing
+## Getting Started
 
 Clone this repository and run:
 
@@ -22,7 +23,14 @@ Clone this repository and run:
     python3 setup.py
 ```
 
-### Usage
+## Installing
+
+Install requirements:
+```
+    pip3 install -r requirements.txt
+```
+
+## Usage
 
 To connect to a websocket run:
 
