@@ -2,6 +2,10 @@
 
 A simple python module to collect trades from cryptocurrency exchanges.
 
+Supported exchanges are:
+    * Coinbase
+    * Bitmex
+
 ## Getting Started
 
 Install requirements.
@@ -12,7 +16,11 @@ This module is requires SQL Server to be setup with the database solution availa
 
 ### Installing
 
-Clone this repository.
+Clone this repository and run:
+
+```
+    python3 setup.py
+```
 
 ### Usage
 
