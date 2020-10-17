@@ -5,19 +5,20 @@
 A simple python module to collect trades from cryptocurrency exchanges.
 
 ## Features
-* Write messages directly to database.
-* In case write fails - save message to `json`.
-* Each message is timestamped before inserting into database.
-* Automatic reconnecting to websockets.
-* Logging.
+* Persistance: Messages are written directly to staging area in database.
+* Exception handling - if a write fails the message from exchange is saved to `json`.
+* Timestamping: Each message is timestamped by the script before persisting to database.
+* Run forever: Script to automatically reconnect to exchange websocket.
+* Logging: Handled by Python's logging module.
 
 ## Supported exchanges
 * Coinbase
 * Bitmex
+* `more coming`
 
 ## Prerequisites
 
-This module is requires SQL Server to be setup with the database solution available [here]().
+This module is requires SQL Server to be setup with the database solution available [here](https://github.com/besiobu/cryptocollector_db).
 
 ## Getting Started
 
