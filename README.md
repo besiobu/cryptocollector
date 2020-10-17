@@ -6,7 +6,7 @@ A simple python module to collect trades from cryptocurrency exchanges.
 
 ## Features
 * Persistance: Messages are written directly to staging area in database.
-* Exception handling - if a write fails the message from exchange is saved to `json`.
+* Exception handling: if a write fails the message from exchange is saved to `json`.
 * Timestamping: Each message is timestamped by the script before persisting to database.
 * Run forever: Script to automatically reconnect to exchange websocket.
 * Logging: Handled by Python's logging module.
